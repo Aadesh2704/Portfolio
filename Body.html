@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Portfolio website to represent me and my work">
+    <meta name="keywords" content="HTML,CSS,JavaScript,">
+    <meta name="author" content="Aadesh Shrivastava">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="120">
+	<link rel="shortcut icon" type="fevicon.png" href="./fevicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+	<title class="title">Gaurox</title>
+</head>
+
+
+
+<body>
+	<!--Hamburger nav-->
+ <div class="site-main-wrapper">
+	<div class="top-logo">
+		<img src="./images/gaurox.jpeg" width="90" height="90" alt="">
+	</div>
+	<button class="hamburger">
+		<img src="./images/hamberger.svg" alt="">
+	</button>
+	<div class="mobile-nav">
+		<div class="nav-logo">
+			<img src="./images/gaurox-1.jpeg" width="90" 
+			height="90" alt="">
+		</div>
+		<button class="times"><img src="./images/times.png" alt=""></button>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#work">Projects</a></li>
+			<li><a href="https://oxgaur.blogspot.com/" target="_blank">Blog</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="http://127.0.0.1:5500/Login.html" target="_blank"><button class="btn btn-primary">Login</button></a></li>
+		</ul>
+	</div>
+	<!--Nav Bar-->
+	<header id="home">
+		<div class="container">
+		<nav id="main-nav" class="flex items-center justify-between">  
+			<div class="left flex items-center">
+				 <div class="branding">
+					 <img src="./images/gaurox.jpeg" 
+				   width="75" 
+					 height="75" alt="">
+				 </div>
+				 <div>
+					 <a href="#home">Home</a>
+					 <a href="#about">About</a>
+					 <a href="#services">Services</a>
+					 <a href="#work">Projects</a>
+					 <a href="https://oxgaur.blogspot.com/" target="_blank">Blog</a>
+					 <a href="#contact">Contact</a>   
+				 </div>
+			</div>
+			<div class="right">
+				<a href="Login.html" target="_blank">
+				<button class="btn btn-primary">Login</button>
+			    </a>
+			</div>
+   
+		</nav>
+		<!--Landing page left side img-->
+		<div class="hero flex items-center justify-between">
+			<div class="left flex-1 flex justify-center">
+				<img src="./images/man.png" alt="">
+			</div>
+		<!--Landing page right side Text-->
+			<div class="right flex-1">
+				<h6>Aadesh Shrivastava</h6>
+				<h1>Engineer<span>(Electrical & Electronics)</span></h1>
+				<p>Technology sneaks into my mind everyday. 
+				   Feeling the life everyday with a fresh breath of creativity. 
+				   let's gather to create some artistic commotion.
+			   </p>
+				<div>
+					<a href="./Aadesh Print.pdf" download="Aadesh Resume">
+					<button class="btn btn-secondary">DOWNLOAD CV</button>
+				    </a> 
+				</div>
+			</div>
+		</div>
+		</div>
+	</header>
+   <!--About section-->
+	<section id="about" class="about">
+		<div class="container flex items-center about-inner-wrap">
+   <!--About page Left side img-->
+			<div class="flex-1">
+				<img class="aboutmeimg" src="./images/man-2.png" alt="">
+			</div>
+   <!--About page righ side Text-->			
+			<div class="flex-1 right">
+				<h1 class="head">About <span>Me</span></h1>
+				<h3>hello i'm Aadesh Shrivastava</h3>
+				<p>I am an Electrical & Electronics Engineer with 2 years work experience in Electrical domain. 
+				   Currently focusing on Electronics.I founded The Employability Skills Classes in year 2020 with the prime focus of creating an envornment 
+				   for students wihich enabels them to learn several skill set that are relevent for market.
+				   I have been a guitarist for almost 10 years.
+			   </p>
+	<!--About page social icons-->		
+			<div class="social">
+				<a href="#" target="_blank"><img src="./images/website.svg"></a>
+				<a href="#" target="_blank"><img src="./images/facebook.svg"></a>
+				<a href="#" target="_blank"><img src="./images/twitter.svg"></a>
+				<a href="https://www.linkedin.com/in/aadesh-sh" target="_blank"><img src="./images/pintrest.svg"></a>
+				<a href="#" target="_blank"><img src="./images/instagram.svg"></a>
+			</div>
+			</div>
+		</div>
+	</section>
+	<!--Services Page-->
+	<section id="services" class="Services">
+	   <div class="container">
+			<h1 class ="section-heading"><span>Field</span> of Expertise</h1>
+			<p>Providing High Standard Quality Work</p>
+			<div class="card-wrapper">
+			   <div class="card">
+				<svg class="svg-icon" viewBox="0 0 20 20">
+					<path d="M10,15.654c-0.417,0-0.754,0.338-0.754,0.754S9.583,17.162,10,17.162s0.754-0.338,0.754-0.754S10.417,15.654,10,15.654z M14.523,1.33H5.477c-0.833,0-1.508,0.675-1.508,1.508v14.324c0,0.833,0.675,1.508,1.508,1.508h9.047c0.833,0,1.508-0.675,1.508-1.508V2.838C16.031,2.005,15.356,1.33,14.523,1.33z M15.277,17.162c0,0.416-0.338,0.754-0.754,0.754H5.477c-0.417,0-0.754-0.338-0.754-0.754V2.838c0-0.417,0.337-0.754,0.754-0.754h9.047c0.416,0,0.754,0.337,0.754,0.754V17.162zM13.77,2.838H6.23c-0.417,0-0.754,0.337-0.754,0.754v10.555c0,0.416,0.337,0.754,0.754,0.754h7.539c0.416,0,0.754-0.338,0.754-0.754V3.592C14.523,3.175,14.186,2.838,13.77,2.838z M13.77,13.77c0,0.208-0.169,0.377-0.377,0.377H6.607c-0.208,0-0.377-0.169-0.377-0.377V3.969c0-0.208,0.169-0.377,0.377-0.377h6.785c0.208,0,0.377,0.169,0.377,0.377V13.77z"></path>
+				</svg>
+				   <h2>UI/UX Design</h2>
+				   <p>HTML5, CSS, JavaScript, Canva</p>
+			   </div>
+			   <div class="card">
+				<svg class="svg-icon" viewBox="0 0 20 20">
+					<path fill="" d="M11.015,11.009l5.063,1.191c0.288,0.068,0.579-0.088,0.682-0.364c0.35-0.931,0.528-1.909,0.528-2.91c0-4.559-3.71-8.269-8.27-8.269c-4.559,0-8.269,3.71-8.269,8.269c0,4.56,3.71,8.27,8.269,8.27c0.891,0,1.768-0.144,2.605-0.426c0.279-0.094,0.445-0.38,0.389-0.668L11.015,11.009z M9.018,16.024c-3.914,0-7.097-3.185-7.097-7.099s3.184-7.097,7.097-7.097s7.098,3.184,7.098,7.097c0,0.686-0.097,1.36-0.291,2.012l-5.427-1.276c-0.192-0.046-0.397,0.01-0.54,0.147c-0.144,0.138-0.207,0.339-0.169,0.534l1.07,5.461C10.193,15.951,9.61,16.024,9.018,16.024z"></path>
+					<path fill="" d="M19.183,13.897c-0.08-0.149-0.22-0.256-0.384-0.295l-5.945-1.398c-0.191-0.046-0.397,0.01-0.54,0.147c-0.143,0.138-0.207,0.34-0.168,0.534l1.171,5.985c0.032,0.165,0.135,0.309,0.281,0.394c0.089,0.052,0.191,0.079,0.293,0.079c0.064,0,0.127-0.01,0.188-0.031c0.154-0.052,3.75-1.311,5.134-4.931C19.272,14.223,19.261,14.046,19.183,13.897z M14.325,17.928l-0.857-4.377l4.375,1.029C16.896,16.443,15.229,17.48,14.325,17.928z"></path>
+				</svg>
+				   <h2>Data Handling</h2>
+				   <p>MS Excel, PowerBI, MIS, PPT</p>
+			   </div>
+			   <div class="card">
+				<svg class="svg-icon" viewBox="0 0 20 20">
+					<path d="M12.319,5.792L8.836,2.328C8.589,2.08,8.269,2.295,8.269,2.573v1.534C8.115,4.091,7.937,4.084,7.783,4.084c-2.592,0-4.7,2.097-4.7,4.676c0,1.749,0.968,3.337,2.528,4.146c0.352,0.194,0.651-0.257,0.424-0.529c-0.415-0.492-0.643-1.118-0.643-1.762c0-1.514,1.261-2.747,2.787-2.747c0.029,0,0.06,0,0.09,0.002v1.632c0,0.335,0.378,0.435,0.568,0.245l3.483-3.464C12.455,6.147,12.455,5.928,12.319,5.792 M8.938,8.67V7.554c0-0.411-0.528-0.377-0.781-0.377c-1.906,0-3.457,1.542-3.457,3.438c0,0.271,0.033,0.542,0.097,0.805C4.149,10.7,3.775,9.762,3.775,8.76c0-2.197,1.798-3.985,4.008-3.985c0.251,0,0.501,0.023,0.744,0.069c0.212,0.039,0.412-0.124,0.412-0.34v-1.1l2.646,2.633L8.938,8.67z M14.389,7.107c-0.34-0.18-0.662,0.244-0.424,0.529c0.416,0.493,0.644,1.118,0.644,1.762c0,1.515-1.272,2.747-2.798,2.747c-0.029,0-0.061,0-0.089-0.002v-1.631c0-0.354-0.382-0.419-0.558-0.246l-3.482,3.465c-0.136,0.136-0.136,0.355,0,0.49l3.482,3.465c0.189,0.186,0.568,0.096,0.568-0.245v-1.533c0.153,0.016,0.331,0.022,0.484,0.022c2.592,0,4.7-2.098,4.7-4.677C16.917,9.506,15.948,7.917,14.389,7.107 M12.217,15.238c-0.251,0-0.501-0.022-0.743-0.069c-0.212-0.039-0.411,0.125-0.411,0.341v1.101l-2.646-2.634l2.646-2.633v1.116c0,0.174,0.126,0.318,0.295,0.343c0.158,0.024,0.318,0.034,0.486,0.034c1.905,0,3.456-1.542,3.456-3.438c0-0.271-0.032-0.541-0.097-0.804c0.648,0.719,1.022,1.659,1.022,2.66C16.226,13.451,14.428,15.238,12.217,15.238"></path>
+				</svg>
+				   <h2>Fabrication Industry</h2>
+				   <p>Total Productive Maintenance, Kaizen, RCA</p>
+			   </div>
+			   <div class="card">
+				<svg class="svg-icon" viewBox="0 0 20 20">
+					<path fill="" d="M13.53,2.238c-0.389-0.164-0.844,0.017-1.01,0.41c-0.166,0.391,0.018,0.845,0.411,1.01
+						c2.792,1.181,4.598,3.904,4.6,6.937c0,4.152-3.378,7.529-7.53,7.529c-4.151,0-7.529-3.377-7.529-7.529
+						C2.469,7.591,4.251,4.878,7.01,3.683C7.401,3.515,7.58,3.06,7.412,2.67c-0.17-0.392-0.624-0.571-1.014-0.402
+						c-3.325,1.44-5.472,4.708-5.47,8.327c0,5.002,4.069,9.071,9.071,9.071c5.003,0,9.073-4.07,9.073-9.071
+						C19.07,6.939,16.895,3.659,13.53,2.238z"></path>
+					<path fill="" d="M9.999,7.616c0.426,0,0.771-0.345,0.771-0.771v-5.74c0-0.426-0.345-0.771-0.771-0.771
+						c-0.427,0-0.771,0.345-0.771,0.771v5.74C9.228,7.271,9.573,7.616,9.999,7.616z"></path>
+				</svg>
+				   <h2>Electrical Industry</h2>
+				   <p>Rectifiction, Retro-Fitting, Overhauling</p>
+			   </div>
+			   <div class="card">
+				<svg class="svg-icon" viewBox="0 0 20 20">
+					<path fill="" d="M17.125,1.375H2.875c-0.828,0-1.5,0.672-1.5,1.5v11.25c0,0.828,0.672,1.5,1.5,1.5H7.75v2.25H6.625c-0.207,0-0.375,0.168-0.375,0.375s0.168,0.375,0.375,0.375h6.75c0.207,0,0.375-0.168,0.375-0.375s-0.168-0.375-0.375-0.375H12.25v-2.25h4.875c0.828,0,1.5-0.672,1.5-1.5V2.875C18.625,2.047,17.953,1.375,17.125,1.375z M11.5,17.875h-3v-2.25h3V17.875zM17.875,14.125c0,0.414-0.336,0.75-0.75,0.75H2.875c-0.414,0-0.75-0.336-0.75-0.75v-1.5h15.75V14.125z M17.875,11.875H2.125v-9c0-0.414,0.336-0.75,0.75-0.75h14.25c0.414,0,0.75,0.336,0.75,0.75V11.875z M10,14.125c0.207,0,0.375-0.168,0.375-0.375S10.207,13.375,10,13.375s-0.375,0.168-0.375,0.375S9.793,14.125,10,14.125z"></path>
+				</svg>
+				   <h2>Electronics Industry</h2>
+				   <p>CMOS, Basic Electronics Component, Python</p>
+			   </div>
+			   <div class="card">
+				<svg class="svg-icon" viewBox="0 0 20 20">
+					<path d="M15.573,11.624c0.568-0.478,0.947-1.219,0.947-2.019c0-1.37-1.108-2.569-2.371-2.569s-2.371,1.2-2.371,2.569c0,0.8,0.379,1.542,0.946,2.019c-0.253,0.089-0.496,0.2-0.728,0.332c-0.743-0.898-1.745-1.573-2.891-1.911c0.877-0.61,1.486-1.666,1.486-2.812c0-1.79-1.479-3.359-3.162-3.359S4.269,5.443,4.269,7.233c0,1.146,0.608,2.202,1.486,2.812c-2.454,0.725-4.252,2.998-4.252,5.685c0,0.218,0.178,0.396,0.395,0.396h16.203c0.218,0,0.396-0.178,0.396-0.396C18.497,13.831,17.273,12.216,15.573,11.624 M12.568,9.605c0-0.822,0.689-1.779,1.581-1.779s1.58,0.957,1.58,1.779s-0.688,1.779-1.58,1.779S12.568,10.427,12.568,9.605 M5.06,7.233c0-1.213,1.014-2.569,2.371-2.569c1.358,0,2.371,1.355,2.371,2.569S8.789,9.802,7.431,9.802C6.073,9.802,5.06,8.447,5.06,7.233 M2.309,15.335c0.202-2.649,2.423-4.742,5.122-4.742s4.921,2.093,5.122,4.742H2.309z M13.346,15.335c-0.067-0.997-0.382-1.928-0.882-2.732c0.502-0.271,1.075-0.429,1.686-0.429c1.828,0,3.338,1.385,3.535,3.161H13.346z"></path>
+				</svg>
+				   <h2>People Skill</h2>
+				   <p>Communication, Team Lead, Extrovert</p>
+			   </div>
+			   
+			</div>
+	   </div>
+	</section>
+	<section class="freelancer">
+	   <h1>I am as free as you can get</h1>
+	   <p>Same thing we talked about before</p>
+	   <a href="./Aadesh Print.pdf" download="Aadesh Resume">
+	   <button class="btn btn-primary">Download CV</button>
+	   </a>
+	</section>
+	<section class="reviews">
+	   <div class="container">
+		   <h1 class="section-heading-2"><span>Our</span> Team</h1>
+		   <p>Lorem, ipsum dolor sit.</p>
+		   <div class="slider">
+			   <div class="slide">
+				   <img src="./Images/lady.png" alt="">
+				   <p>"This is a big paragraph for no reason. just for some extra long section filling.
+					   rest useful things can be found under this paragraph. 
+					   So continue exploring this site in details"
+				   </p>
+				   <span>One </span>
+			   </div>
+			   <div class="slide">
+				   <img src="./Images/lady.png" alt="">
+				   <p>"This is a big paragraph for no reason. just for some extra long section filling.
+					   rest useful things can be found under this paragraph. 
+					   So continue exploring this site in details"
+				   </p>
+				   <span>Two </span>
+			   </div>
+			   <div class="slide">
+				   <img src="./Images/lady.png" alt="">
+				   <p>"This is a big paragraph for no reason. just for some extra long section filling.
+					   rest useful things can be found under this paragraph. 
+					   So continue exploring this site in details"
+				   </p>
+				   <span>Three </span>
+			   </div>
+			   <div class="slide">
+				   <img src="./Images/lady.png" alt="">
+				   <p>"This is a big paragraph for no reason. just for some extra long section filling.
+					   rest useful things can be found under this paragraph. 
+					   So continue exploring this site in details"
+				   </p>
+				   <span>Four </span>
+			   </div>
+			   <div class="slide">
+				   <img src="./Images/lady.png" alt="">
+				   <p>"This is a big paragraph for no reason. just for some extra long section filling.
+					   rest useful things can be found under this paragraph. 
+					   So continue exploring this site in details"
+				   </p>
+				   <span>Five </span>
+			   </div>
+		   </div>
+		   <div class="slider-dots"></div>
+	   </div>
+	 </section>
+	 <section id="work" class="work">
+	   <div class="container">
+		   <h1 class="section-heading"><span>My </span>Projects</h1>
+		   <p>I provide high quality work</p>
+		   <div class="card-wrapper">
+			   <div class="card">
+				   <div class="overlay">
+					   <span>Category</span>
+					   <a href="#">Web development</a>
+				   </div>
+				   <img src="./images/projects.jpg" alt="">
+			   </div>
+			   <div class="card">
+				   <div class="overlay">
+					   <span>Category</span>
+					   <a href="#">Web development</a>
+				   </div>
+				   <img src="./images/projects.jpg" alt="">
+			   </div>
+			   <div class="card">
+				   <div class="overlay">
+					   <span>Category</span>
+					   <a href="#">Web development</a>
+				   </div>
+				   <img src="./images/projects.jpg" alt="">
+			   </div>
+			   <div class="card">
+				   <div class="overlay">
+					   <span>Category</span>
+					   <a href="#">Web development</a>
+				   </div>
+				   <img src="./images/projects.jpg" alt="">
+			   </div>
+			   <div class="card">
+				   <div class="overlay">
+					   <span>Category</span>
+					   <a href="#">Web development</a>
+				   </div>
+				   <img src="./images/projects.jpg" alt="">
+			   </div>
+			   <div class="card">
+				   <div class="overlay">
+					   <span>Category</span>
+					   <a href="#">Web development</a>
+				   </div>
+				   <img src="./images/projects.jpg" alt="">
+			   </div>
+		   </div>
+	   </div>
+	 </section>
+	 <section id="contact" class="contact">
+	   <div class="container">
+		   <h1 class="section-heading-2">Contact <span>Me</span></h1>
+		   <p>Feel free to get in touch</p>
+		   <div class="card-wrapper">
+			   <div class="card">
+				   <img src="./images/phone-2.svg" alt="" width="80px" height="80px">
+				   <h1>Call Me On</h1>
+				   <h6>+91 87708 20431</h6>
+			   </div>
+			   <div class="card">
+				   <img src="./images/msg.svg" alt="" width="80px" height="80px">
+				   <h1>Email Us At</h1>
+				   <h6>aadesh1@duck.com</h6>
+			   </div>
+			   <div class="card">
+				   <img src="./images/map.svg" alt="" width="80px" height="80px">
+				   <h1>Visit Office</h1>
+				   <h6>99, Adhartal, Jabalpur, Madhya Pradesh, India, Zip:482004</h6>
+			   </div>
+			</div>
+			<form onsubmit="sendEmail(event);">      
+				<input name="name" type="text" class="feedback-input" placeholder="Name" />   
+				<input name="email" id="email" type="text" class="feedback-input" placeholder="Email" />
+				<input name="phone number" type="text" class="feedback-input" placeholder="Phone Number" />
+				<textarea name="text" class="feedback-input" placeholder="Your Message"></textarea>
+				<button type="submit">Submit</button>
+			</form>	
+		 </div>
+		</form>
+		   
+	   </div>
+	 </section>
+	 <footer>
+	   <img class="footer-logo"src="./images/gaurox.jpeg" 
+				   width="75" 
+					 height="75" alt="">
+	   <div class="Footer-socials">
+		   <a href="#"><img src="images/website.svg" alt="" width="25px" height="25px"></a>
+		   <a href="#"><img src="images/facebook.svg" alt=""width="25px" height="25px"></a>
+		   <a href="#"><img src="images/instagram.svg" alt=""width="25px" height="25px"></a>
+		   <a href="#"><img src="images/twitter.svg" alt=""width="25px" height="25px"></a>
+		   <a href="#"><img src="images/pintrest.svg" alt=""width="25px" height="25px"></a>
+	   </div>
+	   <div class="copyright">
+		   Copyright 2022 • Name PSD Template. All Rights Reserved.
+	   </div>
+	 </footer>
+ </div>
+
+
+
+
+
+
+
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script>
+
+   function sendEmail(event){
+	event.preventDefault();
+	   Email.send({
+   Host : "smtp.gmail.com",
+   Username : "aadesh2704@gmail.com",
+   Password : "Treemart@6101",
+   To : 'permit27041996@gmail.com',
+   From : document.getElementById("email").value,
+   Subject : "Portfolio enquiry",
+   Body : "And this is the body"
+})
+.then(
+ message => 
+ {
+	alert(message);
+	reset();
+}
+)
+.catch(
+   console.log("err")
+)
+   }
+ </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./JS/app.js"></script>
+  
+</body>
+</html>
